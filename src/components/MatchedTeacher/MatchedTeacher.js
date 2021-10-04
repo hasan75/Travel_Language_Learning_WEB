@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col , Button } from 'react-bootstrap';
 
 const MatchedTeacher = (props) => {
-    const {name, age, email, fees,picture} = props.courseTeacher
+    const {name, age, email, fees,picture} = props?.courseTeacher
 
     return (
         <div>

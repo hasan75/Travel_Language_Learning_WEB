@@ -15,26 +15,26 @@ const Header = () => {
                     className="d-inline-block align-top me-3"
                     alt="React Bootstrap logo"
                     />
-                    <Appbar.Brand href="#">TLL</Appbar.Brand>
+                    <Appbar.Brand >TLL</Appbar.Brand>
                     <Nav className="me-auto">
                     <Stack direction="horizontal" gap={5}>
                         <NavLink className="text-decoration-none text-white ps-2"
-                        to="/home"
+                        exact to="/home"
                         >
                          Home
                         </NavLink>
                         <NavLink className="text-decoration-none text-white"
-                        to="/about"
+                        exact to="/about"
                         >
                          About
                         </NavLink>
                         <NavLink className="text-decoration-none text-white"
-                        to="/courses"
+                        exact to="/courses"
                         >
                          Courses
                         </NavLink>
                         <NavLink className="text-decoration-none text-white"
-                        to="/teachers"
+                        exact to="/teachers"
                         >
                          Teachers
                         </NavLink>

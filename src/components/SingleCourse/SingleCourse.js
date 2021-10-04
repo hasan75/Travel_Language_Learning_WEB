@@ -22,7 +22,7 @@ const SingleCourse = () => {
     },[])
 
     useEffect(()=>{
-        const matchedCourse = coursesDetails.find((course) => course.id === parseInt(id));
+        const matchedCourse = coursesDetails?.find((course) => course.id === parseInt(id));
         setSingleCourse(matchedCourse);
     },[coursesDetails])
 
@@ -32,7 +32,7 @@ const SingleCourse = () => {
         .then(data => setTeachers(data))
     },[])
     useEffect(()=>{
-        const matchedTeachers = teachers.filter((teacher) => teacher.id === parseInt(id))
+        const matchedTeachers = teachers?.filter((teacher) => teacher.id === parseInt(id))
         setCourseTeacher(matchedTeachers)
         
     },[teachers]);
@@ -68,14 +68,14 @@ const SingleCourse = () => {
                 </Row>
             </Container>
             <Container className="my-5">
-            <h1 className="text-success   p-3">{courseTeachers.length} Teachers For this Course</h1>
+            <h1 className="text-success   p-3">{courseTeachers?.length} Teachers For this Course</h1>
                 <div className="border border-2 border-warning mb-5">
                 </div>
             <Row xs={1} md={3} className="g-4">
              
              {
-                courseTeachers.map(courseTeacher => <MatchedTeacher
-                    key={courseTeacher._id}
+                courseTeachers?.map(courseTeacher => <MatchedTeacher
+                    key={courseTeacher?._id}
                     courseTeacher={courseTeacher}>
                 </MatchedTeacher>)
              }

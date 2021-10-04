@@ -1,4 +1,3 @@
-import React, { useContext } from 'react';
 import { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
@@ -19,8 +18,8 @@ const Courses = () => {
             <Row xs={1} md={3} className="g-4">
              
              {
-                courses.map(course => <Course
-                    key={course._id}
+                courses?.map(course => <Course
+                    key={course?._id}
                     course={course}></Course>)
              }
             

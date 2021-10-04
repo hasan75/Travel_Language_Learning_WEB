@@ -19,14 +19,14 @@ const Teachers = () => {
     return (
         <div className="py-5 my-3">
             <Container>
-            <h1 className="text-success p-3">{teacherIcon}  {teachers.length} Teachers We Have</h1>
+            <h1 className="text-success p-3">{teacherIcon}  {teachers?.length} Teachers We Have</h1>
                 <div className="border border-2 border-warning mb-5">
                 </div>
             <Row xs={1} md={3} className="g-4">
              
              {
-                teachers.map(teacher => <Teacher
-                    key={teacher._id}
+                teachers?.map(teacher => <Teacher
+                    key={teacher?._id}
                     teacher={teacher}></Teacher>)
              }
             
