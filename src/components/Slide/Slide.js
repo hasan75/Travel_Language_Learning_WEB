@@ -7,11 +7,11 @@ import img3 from '../../images/language-school-2.jpg'
 const Slide = () => {
     return (
         <div>
-            <Container className="my-5">
+            <Container className="my-2">
              <Carousel fade>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-75"
+                        className="d-block w-100"
                         src={img1}
                         alt="First slide"
                     />
@@ -22,7 +22,7 @@ const Slide = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                      <img
-                        className="d-block w-100 h-75"
+                        className="d-block w-100"
                         src={img2}
                         alt="Second slide"
                      />
@@ -34,7 +34,7 @@ const Slide = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100 h-75"
+                    className="d-block w-100"
                     src={img3}
                     alt="Third slide"
                     />
