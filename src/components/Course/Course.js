@@ -1,19 +1,23 @@
+import { faMoneyCheckAlt, faUniversity} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import './Course.css'
 
 const Course = (props) => {
-    const {picture, name, details, fees} = props.course
+    const {picture, name, details, fees} = props.course;
+    const feeIcon = <FontAwesomeIcon icon={faMoneyCheckAlt}></FontAwesomeIcon>
+    const courseIcon = <FontAwesomeIcon icon={faUniversity}></FontAwesomeIcon>
     return (
         <div>
             <Col>
              <Card>
-               <Card.Img className="cart-img" variant="" src={picture} />
+               <Card.Img variant="top" className=" course-image" src={picture} />
                 <Card.Body>
-                 <Card.Title>{name}</Card.Title>
+                 <Card.Title className="text-primary fw-bold">{courseIcon} {name}</Card.Title>
                  <Card.Text>
-                    {details}
-                    <h2>{fees}</h2>
+                    <p>{details}</p>
+                    <h2 className="text-danger">{feeIcon} Fees:  {fees}</h2>
                  </Card.Text>
                  <Button variant="outline-success">See Details</Button>
                 </Card.Body>
