@@ -1,0 +1,51 @@
+[
+    {
+      "_id": 1 ,
+      "fees": 3338,
+      "picture": "https://ibb.co/ZS8C6LT",
+      "name": "Fluent English",
+      "details": "Join millions of learners worldwide and discover English learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 2 ,
+      "fees": 1786,
+      "picture": "https://ibb.co/ZS8C6LT",
+      "name": "Spanish",
+      "details": "Join millions of learners worldwide and discover Spanish learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 3,
+      "fees": 3901,
+      "picture": "https://ibb.co/ZS8C6LT",
+      "name": "French",
+      "details": "Join millions of learners worldwide and discover French learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 4,
+      "fees": 3142,
+      "picture": "https://ibb.co/ZS8C6LT",
+      "name": "Hindi",
+      "details": "Join millions of learners worldwide and discover Hindi learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 5,
+      "fees": 3446,
+      "picture": "https://ibb.co/ZS8C6LT",
+      "name": "Bengali",
+      "details": "Join millions of learners worldwide and discover Bengali learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 6,
+      "fees": 3171,
+      "picture": "",
+      "name": "German",
+      "details": "Join millions of learners worldwide and discover English learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    },
+    {
+      "_id": 7,
+      "fees": 2044,
+      "picture": "Korean",
+      "name": "Korean",
+      "details": "Join millions of learners worldwide and discover Korean learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
+    }
+  ]
