@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const ShortDescription = () => {
     return (
@@ -17,7 +18,9 @@ const ShortDescription = () => {
                         </div>
                     </Col>
                     <Col sm className="d-flex align-items-center justify-content-center">
-                    <Button variant="outline-success" size="lg">Learn More</Button>
+                        <Link exact to='/about'>
+                             <Button variant="outline-success" size="lg">Learn More</Button>
+                        </Link>
                     </Col>
               </Row>
             </Container>

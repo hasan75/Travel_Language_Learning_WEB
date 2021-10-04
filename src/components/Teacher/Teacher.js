@@ -7,6 +7,7 @@ import './Teacher.css'
 const Teacher = (props) => {
     const {picture, name, fees, age, email, company} = props.teacher;
     
+    //fontawesome icons
     const moneyIcon = <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon>;
     const mailIcon = <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>;
     const ContactIcon = <FontAwesomeIcon icon={faUserCheck}></FontAwesomeIcon>;
