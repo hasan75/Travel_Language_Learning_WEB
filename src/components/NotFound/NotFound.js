@@ -5,7 +5,7 @@ import { useHistory } from 'react-router';
 
 const NotFound = () => {
     const history = useHistory();
-    const hangleBack = () => {
+    const handleBack = () => {
         history.push('/home')
     }
 
@@ -18,7 +18,7 @@ const NotFound = () => {
                 <h1 className="p-2">Page Not Found!!</h1>
                 <h4 className="p-2">The Requested URL was not found in this server. Files or Pages are missing or you are writting the wrong url. Please Check it again</h4>
             </div>
-            <Button className="mb-3" onclick={hangleBack}>
+            <Button className="mb-3" onClick={handleBack}>
                 Go Back to Home Page
             </Button>
         </div>
