@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound'
 import Courses from './components/Courses/Courses';
 import Teachers from './components/Teachers/Teachers';
+import About from './components/About/About';
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
              <Home></Home>
           </Route>
           <Route exact path='/about'>
-             <Home></Home>
+            <About></About>
           </Route>
           <Route exact path='/courses'>
             <Courses></Courses>

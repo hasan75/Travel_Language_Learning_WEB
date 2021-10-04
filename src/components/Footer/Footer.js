@@ -3,9 +3,9 @@ import { Container } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bottom-0 bg-dark mb-0 pb-0">  
+        <div className="bg-dark w-100">  
             
-            <Container className="bottom-0">
+            <Container>
                 <nav class="navbar navbar-default  navbar-fixed-bottom" role="navigation">
                     <div class="container text-center">
                      <p class="text-warning fs-3 fw-bold navbar-text col-md-12 col-sm-12 col-xs-12 ">Travel Language Learning</p>
