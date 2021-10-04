@@ -12,7 +12,7 @@ const Courses = () => {
     },[])
     return (
         <div>
-            <Container className="my-3">
+            <Container className="my-5">
                 <h1 className="text-success p-3">Courses We Offer</h1>
                 <div className="border border-2 border-primary mb-5">
                 </div>

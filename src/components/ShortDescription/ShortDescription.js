@@ -3,8 +3,8 @@ import { Col, Container, Row, Button } from 'react-bootstrap';
 
 const ShortDescription = () => {
     return (
-        <div>
-            <Container className="my-2 bg-secondary bg-opacity-25 rounded-2">
+        <div className="mt-5">
+            <Container className="my-2 bg-secondary  bg-opacity-25 rounded-2">
               <Row className="p-4">
                     <Col sm className="d-flex align-items-center justify-content-center">
                         <div>

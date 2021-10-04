@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound'
 import Courses from './components/Courses/Courses';
+import Teachers from './components/Teachers/Teachers';
 
 export const InstituteContext = createContext([])
 
@@ -29,7 +30,7 @@ function App() {
             <Courses></Courses>
           </Route>
           <Route exact path='/teachers'>
-            
+            <Teachers></Teachers>
           </Route>
           <Route exact path='/services/:serviceId'>
              <Home></Home>

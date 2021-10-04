@@ -5,7 +5,7 @@ import img from '../../images/logo.png';
 
 const Header = () => {
     return (
-        <div>
+        <div className="fixed-top">
             <Appbar bg="dark" variant="dark">
                 <Container>
                 <img
