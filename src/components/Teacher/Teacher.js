@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
-import { faDollarSign, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faDollarSign, faEnvelope, faUserCheck} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Teacher.css'
 
@@ -9,6 +9,7 @@ const Teacher = (props) => {
     
     const moneyIcon = <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon>;
     const mailIcon = <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>;
+    const ContactIcon = <FontAwesomeIcon icon={faUserCheck}></FontAwesomeIcon>;
 
 
     return (
@@ -24,7 +25,7 @@ const Teacher = (props) => {
                      <p>{mailIcon} Email: {email}</p>
                      <h4> Fees: <span className="text-danger fw-bold">{moneyIcon} {fees}</span> </h4>
                  </Card.Text>
-                 <Button variant="outline-success">Contact Me</Button>
+                 <Button variant="outline-success">{ContactIcon} Contact Me</Button>
                 </Card.Body>
              </Card>
             </Col>

@@ -3,9 +3,14 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Teacher from '../Teacher/Teacher';
+import {faChalkboardTeacher} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Teachers = () => {
     const [teachers, setTeachers] = useState([]);
+
+    const teacherIcon = <FontAwesomeIcon icon={faChalkboardTeacher}></FontAwesomeIcon>
+
     useEffect(()=>{
         fetch('./instructors.json')
         .then(res => res.json())
@@ -14,7 +19,7 @@ const Teachers = () => {
     return (
         <div className="py-5 my-3">
             <Container>
-            <h1 className="text-success   p-3">Teachers We Have</h1>
+            <h1 className="text-success   p-3">{teacherIcon} Teachers We Have</h1>
                 <div className="border border-2 border-warning mb-5">
                 </div>
             <Row xs={1} md={3} className="g-4">
