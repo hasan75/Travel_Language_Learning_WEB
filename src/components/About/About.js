@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import logoImg from '../../images/logo.png'
+import ContactUs from '../ContactUs/ContactUs';
 import './About.css'
 
 const About = () => {
@@ -24,6 +25,9 @@ const About = () => {
                     </div>
                 </Col>
             </Row>
+            </Container>
+            <Container>
+                <ContactUs></ContactUs>
             </Container>
             
         </div>

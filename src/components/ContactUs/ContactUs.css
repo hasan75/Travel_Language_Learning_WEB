@@ -1,0 +1,10 @@
+.bg-contact-custom {
+  background-color: #eed369;
+}
+
+.contact_photo {
+  border: 3px solid #083045;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}

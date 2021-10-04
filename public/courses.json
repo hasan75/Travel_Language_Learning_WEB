@@ -1,48 +1,48 @@
 [
     {
-      "_id": 1 ,
+      "id": 1 ,
       "fees": 3338,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJkWl4vGJCN7vtQz1mvnzI6aCIXIzQ_fm3jGW8mBYXOmyc80oWEARIhD-SWRdB0lxnnPs&usqp=CAU",
       "name": "Fluent English",
       "details": "Join millions of learners worldwide and discover English learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 2 ,
+      "id": 2 ,
       "fees": 1786,
       "picture": "https://dp4g669tqdae4.cloudfront.net/content/uploads/2019/09/12161658/Espanol.-Translation-Spanish.-Language-hand-drawn-doodles-and-lettering.-1087621188_7013x4954.jpg",
       "name": "Spanish",
       "details": "Join millions of learners worldwide and discover Spanish learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 3,
+      "id": 3,
       "fees": 3901,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsRiD9lz_zkNxkaYEsep-azUyZuY0IsTHK1A&usqp=CAU",
       "name": "French",
       "details": "Join millions of learners worldwide and discover French learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 4,
+      "id": 4,
       "fees": 3142,
       "picture": "https://img.etimg.com/thumb/msid-72136111,width-300,imgsize-361723,,resizemode-4,quality-100/hindi-thnkstck.jpg",
       "name": "Hindi",
       "details": "Join millions of learners worldwide and discover Hindi learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 5,
+      "id": 5,
       "fees": 3446,
       "picture": "https://thumbs.dreamstime.com/b/learn-bengali-language-typography-vector-design-educational-conceptual-227954820.jpg",
       "name": "Bengali",
       "details": "Join millions of learners worldwide and discover Bengali learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 6,
+      "id": 6,
       "fees": 3171,
       "picture": "https://www.fluentricsgerman.com/wp-content/uploads/2021/06/Learn-German-Language-Beginners-Guide.jpg",
       "name": "German",
       "details": "Join millions of learners worldwide and discover English learning online – whatever your age, ability or ambition.Our highly qualified English teachers are by your side and provide you with the right tools to help you."
     },
     {
-      "_id": 7,
+      "id": 7,
       "fees": 2044,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNTT1XXTjI5pxvce_SH9ecE7bOkgln5slQQ&usqp=CAU",
       "name": "Korean",

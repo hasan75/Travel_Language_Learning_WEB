@@ -7,6 +7,7 @@ import NotFound from './components/NotFound/NotFound'
 import Courses from './components/Courses/Courses';
 import Teachers from './components/Teachers/Teachers';
 import About from './components/About/About';
+import SingleCourse from './components/SingleCourse/SingleCourse';
 
 function App() {
 
@@ -27,8 +28,8 @@ function App() {
           <Route exact path='/courses'>
             <Courses></Courses>
           </Route>
-          <Route exact path='/courses/:courseId'>
-             <Home></Home>
+          <Route exact path='/courses/:id'>
+             <SingleCourse></SingleCourse>
           </Route>
           <Route exact path='/teachers'>
             <Teachers></Teachers>
