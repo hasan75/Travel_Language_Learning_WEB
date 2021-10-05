@@ -3,14 +3,21 @@ import { Card, Col, Button } from 'react-bootstrap';
 import { faDollarSign, faEnvelope, faUserCheck} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Teacher.css'
+import { useHistory } from 'react-router';
 
 const Teacher = (props) => {
-    const {picture, name, fees, age, email, company} = props.teacher;
+    const {picture, name, fees, age, email, company, _id} = props.teacher;
     
+    const history = useHistory();
+
     //fontawesome icons
     const moneyIcon = <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon>;
     const mailIcon = <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>;
     const ContactIcon = <FontAwesomeIcon icon={faUserCheck}></FontAwesomeIcon>;
+
+    const handleSingleTeacher = () => {
+        history.push(`/teachers/${_id}`)
+    }
 
 
     return (
@@ -26,7 +33,7 @@ const Teacher = (props) => {
                      <p>{mailIcon} Email: {email}</p>
                      <h4> Fees: <span className="text-danger fw-bold">{moneyIcon} {fees}</span> </h4>
                  </Card.Text>
-                 <Button variant="outline-success">{ContactIcon} Contact Me</Button>
+                 <Button variant="outline-success" onClick={handleSingleTeacher}>{ContactIcon} Contact Me</Button>
                 </Card.Body>
              </Card>
             </Col>

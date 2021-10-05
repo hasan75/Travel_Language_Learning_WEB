@@ -27,7 +27,7 @@
     },
     {
       "_id": "614fa16d782853e2720e8a35",
-      "isHiarable": true,
+      "isHiarable": false,
       "fees": 3464,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJEujGRJLwn0mXDhNlJBRImuGOGz3L02mZQ&usqp=CAU",
       "age": 45,
@@ -53,7 +53,7 @@
     },
     {
       "_id": "614fa16df7012bf33ad8e4bf",
-      "isHiarable": false,
+      "isHiarable": true,
       "fees": 2104,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaDVGcq0tFMIhDH3ruqqP-TSkZn-fAp7xhKA&usqp=CAU",
       "age": 53,
@@ -66,7 +66,7 @@
     },
     {
       "_id": "614fa16df96bf73f4c07eca6",
-      "isHiarable": false,
+      "isHiarable": true,
       "fees": 2541,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtv4UPh6Y2RWrvMxqDcDR0IFHm59kAp_s3Qg&usqp=CAU",
       "age": 43,
@@ -105,7 +105,7 @@
     },
     {
       "_id": "614fa16d80dee138cef42e20",
-      "isHiarable": false,
+      "isHiarable": true,
       "fees": 3794,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rsSzLimlQyniEtUV4-1raljzFhS45QBeAw&usqp=CAU",
       "age": 41,
@@ -135,10 +135,10 @@
       "fees": 2945,
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-784Xs9Hxcu-3FdC--IsjPdMVakIrJIaTw&usqp=CAU",
       "age": 46,
-      "name": "Bryant Barrett",
+      "name": "Moidul Khan",
       "gender": "male",
-      "company": "English",
-      "id": 1,
+      "company": "Bengali",
+      "id": 5,
       "email": "bryantbarrett@dancity.com",
       "phone": "+880 (881) 547-3577"
     },

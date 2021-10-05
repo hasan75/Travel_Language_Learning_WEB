@@ -1,8 +1,16 @@
 import React from 'react';
 import { Card, Col , Button } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const MatchedTeacher = (props) => {
-    const {name, age, email, fees,picture} = props?.courseTeacher
+    const {name, age, email, fees,picture, _id} = props?.courseTeacher;
+
+    const history = useHistory();
+
+
+    const handleContactTeacher = () => {
+        history.push(`/teachers/${_id}`)
+    }
 
     return (
         <div>
@@ -17,7 +25,7 @@ const MatchedTeacher = (props) => {
                      <p> Email: {email}</p>
                      <h4> Fees: <span className="text-danger fw-bold">${fees} </span> </h4>
                  </Card.Text>
-                 <Button variant="outline-success"> Contact Me</Button>
+                 <Button variant="outline-success" onClick={handleContactTeacher}> Contact Me</Button>
                 </Card.Body>
              </Card>
             </Col>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar as Appbar, Stack } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import img from '../../images/logo.png';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -18,22 +19,22 @@ const Header = () => {
                     <Appbar.Brand >TLL</Appbar.Brand>
                     <Nav className="me-auto">
                     <Stack direction="horizontal" gap={5}>
-                        <NavLink className="text-decoration-none text-white ps-2"
+                        <NavLink className="text-decoration-none text-white ms-2 header-button"
                         exact to="/home"
                         >
                          Home
                         </NavLink>
-                        <NavLink className="text-decoration-none text-white"
+                        <NavLink className="text-decoration-none text-white header-button"
                         exact to="/about"
                         >
                          About
                         </NavLink>
-                        <NavLink className="text-decoration-none text-white"
+                        <NavLink className="text-decoration-none text-white header-button"
                         exact to="/courses"
                         >
                          Courses
                         </NavLink>
-                        <NavLink className="text-decoration-none text-white"
+                        <NavLink className="text-decoration-none text-white header-button"
                         exact to="/teachers"
                         >
                          Teachers
